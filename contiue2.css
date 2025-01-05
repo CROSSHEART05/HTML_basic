@@ -1,0 +1,76 @@
+button:hover{
+    color:aqua;
+    background-color: violet ;
+    cursor: pointer;
+}
+/* hover --> pointing the cursor on the button */
+
+button:active{
+    boder: 10px solid red;
+}
+/* active--> when we hold the left key of the mouse it will be in active state */
+
+button:focus{
+    background-color: pink;
+    color: white;
+
+}
+/* focus--> indicating that you have already clicked that button */
+
+span{
+    padding: 8px;
+    margin: 8px;
+    background-color: aqua;
+}
+
+/* span:nth-child(odd){
+    background-color: rgb(185, 21, 131) ;
+} */
+
+span:nth-child(even){
+    background-color: violet ;
+}
+
+h1::before{
+    content: "Hello";
+}
+
+/* it adds the content to the html file  */
+h1::after {
+    content: " Good morning ";
+}
+
+/* it adds the content to the html file  */
+
+.shape{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+}
+ .shape::before{
+    content: " ";
+    /* margin: 100px; */
+    width: 50px;
+    height: 50px;
+    background-color:  violet;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+} 
+
+ .shape::after{
+    content: " ";
+    /* margin: 100px; */
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+} 

@@ -1,0 +1,23 @@
+@media only screen and (max-width:800px){
+    h2{
+        font-size: 2.5rem;
+        color:red;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 100px;
+    }
+}
+
+@media only screen and (min-width:400px){
+    h2{
+        font-size: 2.5rem;
+        color:blueviolet;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 200px;
+    }
+}
+
+/* 
+    >> max-width
+            Eg: max-width: 400px {Screen Size is <=400px}
+    >> min-width 
+*/

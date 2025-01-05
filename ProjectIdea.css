@@ -1,0 +1,44 @@
+body{
+    background-color:  rgba(19, 40, 194, 0.642);
+    color :rgb(29, 199, 237);
+    border: 2px solid  rgba(128, 0, 255, 0.677);
+    border-radius: 5% ;
+}
+/* (*) this is a universal selector */
+/* ul{
+    background-color: rgb(14, 0, 139);
+    color: aliceblue;
+    border-radius: 2%;
+} */
+
+/* *{
+    border: 2px solid  rgba(128, 0, 255, 0.677)
+} */
+h4{
+    border: 2px solid  rgba(128, 0, 255, 0.677);
+    /* background-color:rgba(19, 40, 194, 0.642); */
+    border-radius: 45%;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    margin: 50%, 50%, 50%, 50%;
+}
+
+#parent{
+    position: relative;
+    
+    height: 250px;
+    width: 250px;
+     border: 2px dotted red;
+     margin: 50px;
+}
+
+.position, p{
+    position: absolute;
+     color: white; 
+    background-color: black;
+    border: 2px solid blueviolet;
+    top: 15px;
+    left: 15px;
+} 

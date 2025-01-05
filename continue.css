@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+#parent{
+    position: absolute;
+    
+    height: 1400px;
+    width: 250px;
+     border: 2px dotted red;
+     margin: 0px; */
+}
+
+.position{
+    position: sticky;
+     color: white; 
+    background-color: black;
+    border: 2px solid blueviolet;
+    /* border :2px dashed red; */
+    top: 15px;
+    left: 15px;
+} 
+
+/* .position{
+    position: absolute;
+    color: white; 
+    background-color: black;
+    border: 2px solid blueviolet;
+    display: block;
+    top: 15px;
+    left: 15px;
+} */
+
+/* .position, p {
+    position: absolute;
+    color: white; 
+    background-color: black;
+    border: 2px solid blueviolet;
+    display: block;
+    top: 15px;
+    left: 15px;
+    height: 100px; /* Example height */
+/* }  */
+
+button:hover{
+    color: aqua;
+    background-color: blueviolet;
+    cursor: pointer;
+}
